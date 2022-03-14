@@ -108,7 +108,7 @@ const bonus = {
   };
   
   //5a
-
+/*
 const first1 = bonus.first;
 console.log(first1);
 
@@ -120,12 +120,34 @@ console.log(third3);
 const all = [...first1, ...second2, ...third3];
 
 console.log(all);
+*/
+
 /*
 [
   1, 2, 3, 4, 5,
   6, 7, 8, 9
 ]
 */
+
+
+//or
+
+/*
+const {first, second, third} = bonus;
+const all = [...first, ...second, ...third];
+console.log(all);
+*/
+
+//or
+
+
+const all = [
+    ...bonus.first,
+    ...bonus.second,
+    ...bonus.third
+];
+
+
 
 //5b
 
