@@ -151,9 +151,15 @@ const all = [
 
 //5b
 
-const [one, two, three, four, five, six, seven, eight, nine] = all;
+//const [one, two, three, four, five, six, seven, eight, nine] = all;
 
-console.log(three);
+//or
+
+const [one, two, three] = bonus.first;
+const [four, five, six] = bonus.second;
+const [seven, eight, nine] = bonus.third;
+
+console.log(one, two, three, four, five, six, seven, eight, nine);
 
 
  
